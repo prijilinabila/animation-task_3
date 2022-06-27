@@ -1,0 +1,133 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#container{
+    position: relative;
+    width: 728px;
+    height: 90px;
+    margin: 0 auto;
+    overflow: hidden;
+    border: solid 1px black;
+}
+#img1{
+    position: absolute;
+    left: 0px;
+}
+#img2{
+    position: absolute;
+    right: 0px;
+}
+#img3{
+    position: absolute;
+    right: 0px;
+}
+#screen1{
+    width: 364px;
+    height: 90px;
+    position: absolute;
+    left: -50px;
+    background-color: red;
+    transition: all 0.5s;
+}
+#screen1.show{
+    left: -364px;
+}
+#screen2{
+    width: 364px;
+    height: 90px;
+    position: absolute;
+    right: -50px;
+    background-color: red;
+    transition: all 0.5s;
+}
+#screen2.show{
+    right: -364px;
+}
+#copy1{
+    position: absolute;
+    top: 6px;
+    right: -68px;
+    
+    font-size: x-large;
+    transition: all 0.5s;
+}
+#copy1.show{
+    right: 137px;
+}
+#copy2{  
+    position: absolute;
+    top: 27px;
+    right: -268px;
+    font-size: xx-large;
+    transition: all 0.2s;
+    color: red;
+}
+#copy2.show{
+    right: 137px;
+}
+#copy3{  
+    position: absolute;
+    top: 59px;
+    right: -275px;
+    font-size: inherit;
+    transition: all 0.2s;
+}
+#copy3.show{
+    right: 137px;
+}
+#logo{ 
+    position: absolute;
+    left: 262px;
+    top: -50px;
+    transition: all 0.5s;
+}
+#logo.show{
+    top: 22px;
+}
+.icons{
+    position: absolute;
+}
+#icon1{
+    position: absolute;
+    top: 56px;
+    right: -170px;
+    transform: scale(0);
+    opacity: 0;
+
+}
+#icon2{
+    position: absolute;
+    left: 171px;
+    bottom: -79px;
+    transform: scale(0);
+    opacity: 0;
+  }
+#icon3{
+    position: absolute;
+    left: 202px;
+    top: 27px;
+    transform: scale(0);
+    opacity: 0;
+}
+#icon4{
+    position: absolute;
+    left: 234px;
+    top: 2px;
+    transform: scale(0);
+    opacity: 0;
+}
+#button{
+    position: absolute;
+    background-color: red;
+    border-radius: 8px;
+    right: 10px;
+    top: 31px;
+    height: 28px;
+    width: 111px;
+    opacity: 0;
+    transform: translate(120px);
+    border: 0px;
+}
